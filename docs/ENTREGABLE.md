@@ -82,4 +82,4 @@ Pruebas con pytest: 15 aprobadas de 15.
 
 ## Repositorio
 
-[enlace del repositorio]
+https://github.com/fbrzz004/lab10_techstore
