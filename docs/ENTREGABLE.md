@@ -77,8 +77,14 @@ Pruebas con pytest: 15 aprobadas de 15.
 
 ## Despliegue
 
-- Backend: [URL de Render]
-- Aplicación web: [URL de Netlify]
+- Backend: https://techstore-api-xb0d.onrender.com
+- Aplicación web: https://techstore-lab10-fbrzz004.netlify.app
+
+![Ruta /health del backend desplegado](evidencias/19_health.png){width=15.5cm}
+
+![Aplicación web desplegada](evidencias/21_app_web.png){width=6.2cm}
+
+![Catálogo desde la aplicación web desplegada](evidencias/22_app_web_catalogo.png){width=6.2cm}
 
 ## Repositorio
 

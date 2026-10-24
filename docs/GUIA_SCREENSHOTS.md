@@ -251,9 +251,10 @@ Archivo: `13_error_conexion.png`.
 
 Siga `docs/DESPLIEGUE.md`.
 
-1. Abra `https://[servicio].onrender.com/health` y capture la respuesta JSON. Archivo: `19_health.png`.
-2. Capture el panel de Render con el servicio en estado *Live*. Archivo: `20_render.png`.
-3. Abra la aplicación web desplegada, inicie sesión y capture la pantalla. Archivo: `21_app_web.png`.
+1. Abra `https://techstore-api-xb0d.onrender.com/health` y capture la respuesta. Archivo: `19_health.png`.
+2. Abra la aplicación web `https://techstore-lab10-fbrzz004.netlify.app`, inicie sesión y capture el inicio. Archivo: `21_app_web.png`.
+3. Abra el catálogo y capture la lista. Archivo: `22_app_web_catalogo.png`.
+4. Capture el panel de Render con el servicio en estado *Live*. Archivo: `20_render.png`. Es opcional.
 
 ## 10. Inserción de las capturas en el entregable
 
@@ -290,6 +291,7 @@ En Word o PDF: borre el marcador y pegue la imagen en ese lugar.
 | Ruta /health desplegada | `19_health.png` |
 | Panel de Render | `20_render.png` |
 | Aplicación web desplegada | `21_app_web.png` |
+| Catálogo web desplegado | `22_app_web_catalogo.png` |
 
 ## 11. Lista de verificación
 

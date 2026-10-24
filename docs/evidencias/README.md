@@ -41,8 +41,6 @@ Las imágenes se capturaron con un ancho de 390 píxeles desde la compilación w
 
 ## Capturas pendientes
 
-- `19_health.png`: ruta /health del backend desplegado.
-- `20_render.png`: panel de Render con el servicio activo.
-- `21_app_web.png`: aplicación web desplegada.
+- `20_render.png`: panel de Render con el servicio activo. Es opcional si el entregable incluye `/health` y la aplicación desplegada.
 
 Los pasos están en `docs/DESPLIEGUE.md`.

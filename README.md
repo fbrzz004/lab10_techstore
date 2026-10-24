@@ -60,3 +60,8 @@ flutter test
 - [Guía de capturas](docs/GUIA_SCREENSHOTS.md)
 - [Despliegue manual](docs/DESPLIEGUE.md)
 - [Despliegue automático](docs/AUTOMATIZACION.md)
+
+## Despliegue
+
+- Backend: https://techstore-api-xb0d.onrender.com
+- Aplicación web: https://techstore-lab10-fbrzz004.netlify.app

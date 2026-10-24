@@ -1,5 +1,13 @@
 # Despliegue en la nube
 
+## 0. Despliegue actual
+
+- Backend: https://techstore-api-xb0d.onrender.com
+- Aplicación web: https://techstore-lab10-fbrzz004.netlify.app
+- Repositorio: https://github.com/fbrzz004/lab10_techstore
+
+El sitio de Netlify tiene visibilidad pública. El script `scripts/deploy.py` desactiva la protección con inicio de sesión si el equipo la tiene activada.
+
 ## 1. Backend en Render
 
 ### 1.1. Repositorio
