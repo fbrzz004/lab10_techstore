@@ -1,0 +1,3 @@
+from controllers.auth_controller import auth_bp
+from controllers.main_controller import main_bp
+from controllers.producto_controller import producto_bp

@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: techstore-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn "app:create_app()" --bind 0.0.0.0:$PORT --workers 2 --timeout 60
+    healthCheckPath: /health
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: DATABASE_PATH
+        value: database.db
+      - key: PYTHON_VERSION
+        value: 3.12.4

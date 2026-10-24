@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.dart_tool/
+build/
+*.iml
+.idea/
+database.db
+.env
+.env.deploy
+deploy_urls.json

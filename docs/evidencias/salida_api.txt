@@ -1,0 +1,43 @@
+
+GET /health
+{"estado":"operativo","ok":true}
+
+HTTP 200
+
+POST /api/login
+{"mensaje":"Acceso exitoso","ok":true,"usuario":{"id":1,"nombre":"Administrador TechStore","username":"admin"}}
+
+HTTP 200
+
+POST /api/login
+{"mensaje":"Credenciales incorrectas","ok":false}
+
+HTTP 401
+
+GET /api/productos/buscar?q=laptop
+[{"categoria":"Laptops","codigo":"PROD-001","descripcion":"Procesador Intel i5 12va generación","id":1,"nombre":"Laptop HP Pavilion 15","precio":2899.9,"stock":10}]
+
+HTTP 200
+
+GET /api/productos/buscar?q=xyz123
+[]
+
+HTTP 200
+
+POST /api/productos
+{"id":12,"mensaje":"Producto registrado","ok":true}
+
+PUT /api/productos/12
+{"mensaje":"Producto actualizado","ok":true}
+
+HTTP 200
+
+GET /api/productos/12
+{"categoria":"Pruebas","codigo":"PROD-999","descripcion":"Producto temporal editado","id":12,"nombre":"Producto de prueba editado","precio":109.9,"stock":5}
+
+HTTP 200
+
+DELETE /api/productos/12
+{"mensaje":"Producto eliminado","ok":true}
+
+HTTP 200

@@ -1,0 +1,15 @@
+id  username           nombre           activo
+--  ---------  -----------------------  ------
+ 1  admin      Administrador TechStore       1
+ 2  vendedor1  Juan Pérez                    1
+id   codigo              nombre                categoria     precio  stock
+--  --------  -----------------------------  --------------  ------  -----
+ 1  PROD-001  Laptop HP Pavilion 15          Laptops         2899.9     10
+ 2  PROD-002  Mouse Logitech MX Master       Periféricos      189.9     25
+ 3  PROD-003  Teclado Mecánico Redragon      Periféricos      249.9     15
+ 4  PROD-004  Monitor Dell 24 FHD            Monitores        799.9      8
+ 5  PROD-005  Auriculares Sony WH-1000XM5    Audio           1299.9     12
+ 6  PROD-006  Smartphone Samsung Galaxy A54  Smartphones     1199.9     20
+ 7  PROD-007  Tablet iPad Air 5ta Gen        Tablets         2999.9      5
+ 8  PROD-008  SSD Kingston 1TB               Almacenamiento   299.9     30
+10  PROD-009  Webcam Logitech C920           Periféricos      249.9      6
