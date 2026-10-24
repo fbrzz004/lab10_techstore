@@ -234,6 +234,8 @@ def buscar_sitio(token: str) -> dict | None:
 
     consulta = urllib.parse.urlencode({"name": nombre_sitio()})
     _, datos = pedir(f"{NETLIFY_API}/sites?{consulta}", token)
+    if isinstance(datos, dict) and datos.get("name") == nombre_sitio():
+        return datos
     if isinstance(datos, list):
         for sitio in datos:
             if sitio.get("name") == nombre_sitio():
