@@ -96,6 +96,7 @@ El remoto HTTPS usa la sesión de `gh`. Si ejecutó `scripts/setup_ssh.sh`, el r
 ## 7. Notas de Render
 
 - El plan Free suspende el servicio después de 15 minutos sin solicitudes.
+- El script crea el sitio con acceso público. Si el equipo de Netlify tiene activada la protección con inicio de sesión, el script la desactiva.
 - El plan Free usa un disco temporal. La base de datos se crea de nuevo en cada despliegue con los 8 productos iniciales.
 - Para conservar los datos, cambie a un plan pagado, agregue un disco en `/var/data` y defina `DATABASE_PATH=/var/data/database.db`.
 - El servicio usa `autoDeployTrigger: off`. Cada despliegue se activa con el script. Para desplegar con cada `push`, cambie la opción en el panel de Render y conecte la aplicación de GitHub.

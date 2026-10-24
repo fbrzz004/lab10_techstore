@@ -249,6 +249,16 @@ def crear_sitio(token: str) -> dict:
     return desenvolver(datos, "site")
 
 
+def hacer_publico(token: str, sitio: dict) -> dict:
+    if not sitio.get("sso_login"):
+        return sitio
+    print("Desactivando el acceso privado del sitio...")
+    _, datos = pedir(
+        f"{NETLIFY_API}/sites/{sitio['id']}", token, "PUT", {"sso_login": False}
+    )
+    return desenvolver(datos, "site")
+
+
 def construir_web(backend_url: str) -> Path:
     if shutil.which("flutter") is None:
         raise SystemExit("No se encontró flutter en PATH.")
@@ -296,6 +306,7 @@ def esperar_deploy_netlify(token: str, deploy_id: str) -> None:
 def desplegar_web(backend_url: str) -> str:
     token = token_netlify()
     sitio = buscar_sitio(token) or crear_sitio(token)
+    sitio = hacer_publico(token, sitio)
     carpeta = construir_web(backend_url)
 
     print("Subiendo la compilación a Netlify...")
