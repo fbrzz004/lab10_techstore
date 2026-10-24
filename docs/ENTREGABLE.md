@@ -1,3 +1,7 @@
+Backend: https://techstore-api-xb0d.onrender.com  
+Aplicación web: https://techstore-lab10-fbrzz004.netlify.app  
+Repositorio: https://github.com/fbrzz004/lab10_techstore
+
 Curso: Taller de construcción de software móvil  
 Profesor: Dr. Ivan Petrlik Azabache  
 Estudiante: André Fabrizzio Román Suyo  
@@ -75,17 +79,10 @@ Pruebas con pytest: 15 aprobadas de 15.
 
 ![Alerta con el backend apagado](evidencias/13_error_conexion.png){width=6.2cm}
 
-## Despliegue
-
-- Backend: https://techstore-api-xb0d.onrender.com
-- Aplicación web: https://techstore-lab10-fbrzz004.netlify.app
+## Capturas del despliegue
 
 ![Ruta /health del backend desplegado](evidencias/19_health.png){width=15.5cm}
 
 ![Aplicación web desplegada](evidencias/21_app_web.png){width=6.2cm}
 
 ![Catálogo desde la aplicación web desplegada](evidencias/22_app_web_catalogo.png){width=6.2cm}
-
-## Repositorio
-
-https://github.com/fbrzz004/lab10_techstore
